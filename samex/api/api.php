@@ -59,24 +59,7 @@
 		
 		
 		
-	/*	private function testHeader()
-		{
-			echo $this->access_token;
-		}*/
-		
-			private function testHeader()
-		{
-		
-			
-			 $this->_status['status'] = self::STATUS_SUCCESS;
-			 $this->_status['message'] = "{'data': 'Waah jee waah'}"; 
-			 $this->response($this->json($this->_status), 200);
-			 exit();
-		}
-		
 	
-			
-		
 		/* Login Function for Mobile & Web*'end here'*/
 		private function checkDB() {
 		  		   
